@@ -6,7 +6,7 @@ while (randomNumbers.length < 5) {
 
     const number = Math.floor(Math.random() * 101);
     randomNumbers.includes(number) ? '' : randomNumbers.push(number);
-    console.log(number);
+    
 }
 
 
