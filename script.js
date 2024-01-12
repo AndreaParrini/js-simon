@@ -20,8 +20,8 @@ randomNumbers.forEach(number => {
 
 });
 
-setTimeout(resetNumber, 3000)
-setTimeout(userNumbers, 4000)
+setTimeout(resetNumber, 30000)
+setTimeout(userNumbers, 31000)
 
 
 function resetNumber() {
