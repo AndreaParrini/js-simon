@@ -48,7 +48,7 @@ function userNumbers() {
     })
 
     const pEl = `
-        <div class= "mt-5 text-center fw-bold fs-5"> Sono stati indovinati ${numberChecked} numeri</div>
+        <div class= "mt-5 text-center "> Sono stati indovinati <span class="fw-bold fs-5">${numberChecked}</span> numeri</div>
         `;
     rowEl.insertAdjacentHTML('beforeend', pEl)
 }
