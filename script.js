@@ -1,5 +1,6 @@
 const randomNumbers = [];
 let numberChecked = 0;
+const rowEl = document.querySelector('.row');
 
 while (randomNumbers.length < 5) {
 
@@ -8,7 +9,6 @@ while (randomNumbers.length < 5) {
     console.log(number);
 }
 
-const rowEl = document.querySelector('.row');
 
 randomNumbers.forEach(number => {
 
